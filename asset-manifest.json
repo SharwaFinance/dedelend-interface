@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.931ce0fc.chunk.css",
-    "main.js": "/static/js/main.e5d82101.chunk.js",
-    "main.js.map": "/static/js/main.e5d82101.chunk.js.map",
+    "main.js": "/static/js/main.aebe4e8d.chunk.js",
+    "main.js.map": "/static/js/main.aebe4e8d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1b22b0af.js",
     "runtime-main.js.map": "/static/js/runtime-main.1b22b0af.js.map",
-    "static/js/2.1c1e60a5.chunk.js": "/static/js/2.1c1e60a5.chunk.js",
-    "static/js/2.1c1e60a5.chunk.js.map": "/static/js/2.1c1e60a5.chunk.js.map",
+    "static/js/2.6db9be11.chunk.js": "/static/js/2.6db9be11.chunk.js",
+    "static/js/2.6db9be11.chunk.js.map": "/static/js/2.6db9be11.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.931ce0fc.chunk.css.map": "/static/css/main.931ce0fc.chunk.css.map",
-    "static/js/2.1c1e60a5.chunk.js.LICENSE.txt": "/static/js/2.1c1e60a5.chunk.js.LICENSE.txt",
+    "static/js/2.6db9be11.chunk.js.LICENSE.txt": "/static/js/2.6db9be11.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/Gantari-Regular.ed10e76c.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.1b22b0af.js",
-    "static/js/2.1c1e60a5.chunk.js",
+    "static/js/2.6db9be11.chunk.js",
     "static/css/main.931ce0fc.chunk.css",
-    "static/js/main.e5d82101.chunk.js"
+    "static/js/main.aebe4e8d.chunk.js"
   ]
 }
