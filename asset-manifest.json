@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e88bcf45.chunk.css",
-    "main.js": "/static/js/main.139e4f0b.chunk.js",
-    "main.js.map": "/static/js/main.139e4f0b.chunk.js.map",
+    "main.js": "/static/js/main.6e249f89.chunk.js",
+    "main.js.map": "/static/js/main.6e249f89.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.132b4f0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.132b4f0b.js.map",
     "static/css/2.9980fd32.chunk.css": "/static/css/2.9980fd32.chunk.css",
@@ -160,6 +160,7 @@
     "static/media/ic_weth_24.svg": "/static/media/ic_weth_24.bc395894.svg",
     "static/media/ic_weth_40.svg": "/static/media/ic_weth_40.334ca16a.svg",
     "static/media/icon-link.d25d108e.svg": "/static/media/icon-link.d25d108e.svg",
+    "static/media/icon-wallet.fade0d04.svg": "/static/media/icon-wallet.fade0d04.svg",
     "static/media/icon_arrow.svg": "/static/media/icon_arrow.5a2e0b83.svg",
     "static/media/icon_check.svg": "/static/media/icon_check.11b53f10.svg",
     "static/media/icon_close.svg": "/static/media/icon_close.0c82fb42.svg",
@@ -198,6 +199,6 @@
     "static/css/2.9980fd32.chunk.css",
     "static/js/2.199f68c6.chunk.js",
     "static/css/main.e88bcf45.chunk.css",
-    "static/js/main.139e4f0b.chunk.js"
+    "static/js/main.6e249f89.chunk.js"
   ]
 }
