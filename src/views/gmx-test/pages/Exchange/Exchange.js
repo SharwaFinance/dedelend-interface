@@ -401,7 +401,9 @@ export const Exchange = forwardRef((props, ref) => {
     }
   }, [showBanner, bannerHidden, setBannerHidden, setShowBanner]);
 
-  const { active, account, library } = useWeb3React();
+  // const { active, account, library } = useWeb3React();
+  const { account, library } = useWeb3React();
+  const active = Boolean(props.walletAddress);
   const { chainId } = useChainId();
   const currentAccount = account;
 
@@ -436,13 +438,11 @@ export const Exchange = forwardRef((props, ref) => {
     [chainId, defaultCollateralSymbol]
   );
 
-  // ETH/USDC disable
-  // const [tokenSelection, setTokenSelection] = useLocalStorageByChainId(
-  //   chainId,
-  //   "Exchange-token-selection-v2",
-  //   defaultTokenSelection
-  // );
-  const [tokenSelection, setTokenSelection] = useState(defaultTokenSelection);
+  const [tokenSelection, setTokenSelection] = useLocalStorageByChainId(
+    chainId,
+    "Exchange-token-selection-v2",
+    defaultTokenSelection
+  );
 
 
   const [swapOption, setSwapOption] = useLocalStorageByChainId(chainId, "Swap-option-v2", LONG);
@@ -503,6 +503,10 @@ export const Exchange = forwardRef((props, ref) => {
   const setToTokenAddress = useCallback(
     (selectedSwapOption, address) => {
       const newTokenSelection = JSON.parse(JSON.stringify(tokenSelection));
+      
+      // ETH/USDC disabling
+      address = AddressZero;
+      
       newTokenSelection[selectedSwapOption].to = address;
       if (selectedSwapOption === LONG || selectedSwapOption === SHORT) {
         newTokenSelection[LONG].to = address;
@@ -514,6 +518,9 @@ export const Exchange = forwardRef((props, ref) => {
   );
 
   const setMarket = (selectedSwapOption, toTokenAddress) => {
+    // ETH/USDC disabling
+    toTokenAddress = AddressZero;
+    
     setSwapOption(selectedSwapOption);
     const newTokenSelection = JSON.parse(JSON.stringify(tokenSelection));
     newTokenSelection[selectedSwapOption].to = toTokenAddress;
